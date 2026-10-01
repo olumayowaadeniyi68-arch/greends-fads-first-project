@@ -1,0 +1,5 @@
+5.1. The command cp ../my-first-project/temp-* . copies all files beginning with "temp-" from the my-first-project folder into the current folder. The symbols ".." mean one folder level above the current folder, while "." means the current folder.
+
+5.2. We did not need to run git init because the repository was cloned from GitHub using git clone. The git clone command automatically created the local Git repository, including its .git folder, and connected it to the remote GitHub repository.
+
+5.3. To commit the copied files, I need to add the files to Git tracking using git add, create a commit using git commit -m, and then upload the commit to GitHub using git push origin main.
